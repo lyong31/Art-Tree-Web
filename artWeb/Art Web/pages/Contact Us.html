@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Arttree | Contact Us</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+<link rel="icon" type="images/x-icon" href="../images/demo/logo.png">
+
+</head>
+
+
+<style type="text/css">
+
+
+
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+	.header-fixed {
+	background-color:#292c2f;
+	box-shadow:0 1px 1px #ccc;
+	padding: 20px 40px;
+	height: 80px;
+	color: #ffffff;
+	box-sizing: border-box;
+	top:-100px;
+
+	-webkit-transition:top 0.3s;
+	transition:top 0.3s;
+}
+
+.header-fixed .header-limiter {
+	max-width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+/*	The header placeholder. It is displayed when the header is fixed to the top of the
+	browser window, in order to prevent the content of the page from jumping up. */
+
+.header-fixed-placeholder{
+	height: 80px;
+	display: none;
+}
+
+/* Logo */
+
+.header-fixed .header-limiter h1 {
+	float: left;
+	font: normal 28px Cookie, Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	margin: 0;
+}
+
+.header-fixed .header-limiter h1 span {
+	color: #5383d3;
+}
+
+/* The navigation links */
+
+.header-fixed .header-limiter a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.header-fixed .header-limiter nav {
+	font:16px Arial, Helvetica, sans-serif;
+	line-height: 40px;
+	float: right;
+}
+
+.header-fixed .header-limiter nav a{
+	display: inline-block;
+	padding: 0 5px;
+	text-decoration:none;
+	color: #ffffff;
+	opacity: 0.9;
+}
+
+.header-fixed .header-limiter nav a:hover{
+	opacity: 1;
+}
+
+.header-fixed .header-limiter nav a.selected {
+	color: #608bd2;
+	pointer-events: none;
+	opacity: 1;
+}
+
+/* Fixed version of the header */
+
+body.fixed .header-fixed {
+	padding: 10px 40px;
+	height: 50px;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+body.fixed .header-fixed-placeholder {
+	display: block;
+}
+
+body.fixed .header-fixed .header-limiter h1 {
+	font-size: 24px;
+	line-height: 30px;
+}
+
+body.fixed .header-fixed .header-limiter nav {
+	line-height: 28px;
+	font-size: 13px;
+}
+
+
+/* Making the header responsive */
+
+@media all and (max-width: 600px) {
+
+	.header-fixed {
+		padding: 20px 0;
+		height: 75px;
+	}
+
+	.header-fixed .header-limiter h1 {
+		float: none;
+		margin: -8px 0 10px;
+		text-align: center;
+		font-size: 24px;
+		line-height: 1;
+	}
+
+	.header-fixed .header-limiter nav {
+		line-height: 1;
+		float:none;
+	}
+
+	.header-fixed .header-limiter nav a {
+		font-size: 13px;
+	}
+
+	body.fixed .header-fixed {
+		display: none;
+	}
+
+}
+
+/*
+	 We are clearing the body's margin and padding, so that the header fits properly.
+	 We are also adding a height to demonstrate the scrolling behavior. You can remove
+	 these styles.
+ */
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 1500px;
+
+}
+</style>
+
+<body>
+
+	<div class="bgded overlay" style="background-image:url('../images/demo/backgrounds/animescene.jpg');"> 
+		<!-- ################################################################################################ -->
+		<div class="wrapper row0">
+		  <div id="topbar" class="hoc clear"> 
+			<!-- ################################################################################################ -->
+			<p class="fl_left nospace"><i class="fas fa-phone"></i> +00 (123) 456 7890</p>
+			<p class="fl_right nospace"><a class="btn" href="#">Get A Quote</a></p>
+			<!-- ################################################################################################ -->
+		  </div>
+		</div>
+		<!-- ################################################################################################ -->
+		<!-- ################################################################################################ -->
+		<!-- ################################################################################################ -->
+		<div class="wrapper row1">
+		  <header id="header" class="hoc clear">
+			<div id="logo" class="fl_left"> 
+			  <!-- ################################################################################################ -->
+			  <h1><a href="../index.html"><img style="height:30px; width:30px;" src="../images/demo/logo.png">Arttree</a></h1>
+			  <!-- ################################################################################################ -->
+			</div>
+			<nav id="mainav" class="fl_right"> 
+			  <!-- ################################################################################################ -->
+			  <ul class="clear">
+				<li><a href="../homepage.html">Home</a></li>
+				<li><a class="drop" href="#">Art Categories</a>
+				  <ul>
+					<li><a href="gallery.html">Gallery</a></li>
+					<li><a href="painting.html">Painting</a></li>
+					<li><a href="sculpture.html">Sculpture</a></li>
+					<li><a href="animation.html">Animation</a></li>
+					<li><a href="music.html">Music</a></li>
+					<li><a href="graffiti.html">Graffiti</a></li>
+					<li><a href="courses.html">Explore</a></li>
+				  </ul>
+				</li>
+				<li><a class="drop" href="#">Tutorials</a>
+				 <ul>
+				  <li><a href="expertsOpinion.html">Expert View</a></li>
+				  <li><a class="drop" href="#">Video Tutorials</a>
+					<ul>
+					  <li><a href="animetut's.html">Animations Tutorials</a></li>
+					  <li><a href="graffitituts.html">Graffiti Tutorials</a></li>
+					  <li><a href="sculpturetut's.html">Sculpture Tutorials</a></li>
+					</ul>
+				  </li>
+				  <li><a href="secretTips.html">Secret Tips</a></li>
+				</ul>
+			  </li>
+			  <li><a href="courses.html">Courses</a></li>
+			  <li class="active"><a href="Contact Us.html">Contact Us</a></li>
+			  <li><a href="../index.html">Sign Out</a></li>
+			</ul>
+			  <!-- ################################################################################################ -->
+			</nav>
+		  </header>
+		</div>
+		<!-- ################################################################################################ -->
+		<!-- ################################################################################################ -->
+		<!-- ################################################################################################ -->
+		<div id="breadcrumb" class="hoc clear"> 
+		  <!-- ################################################################################################ -->
+		  <ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Help and Support</a></li>
+			
+		  </ul>
+		  <!-- ################################################################################################ -->
+		</div>
+		<!-- ################################################################################################ -->
+	  </div>
+
+<!-- You need this element to prevent the content of the page from jumping up -->
+<div class="header-fixed-placeholder"></div>
+
+
+
+
+<div class="container" style="color: rgb(36, 36, 35);">
+  <div style="text-align:center">
+    <h1>Get in Touch</h1>
+    <p>Had an issue or Need some help? Let's Talk. We'd love to Help</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="../images/demo/gra.jpeg" .jpg" style="width:100%; border-radius: 20%;">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="lname">Email</label>
+        <input type="text" id="Email" name="email" placeholder="Your Email Address..">
+        <label for="city">City</label>
+        <select id="city" name="city">
+          <option value="Islamabad">Islamabad</option>
+          <option value="Rawalpindi">Rawalpindi</option>
+          <option value="Lahore">Lahore</option>
+          <option value="Karachi">Karachi</option>
+          <option value="Quetta">Quetta</option>
+          <option value="Peshawar">Peshawar</option>
+          <option value="Faisalabad">Faisalabad</option>
+          <option value="Nowshera">Nowshera</option>
+          <option value="Attock">Attock</option>
+        </select>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Type your Message.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>
+
+	$(document).ready(function(){
+
+		var showHeaderAt = 150;
+
+		var win = $(window),
+				body = $('body');
+
+		// Show the fixed header only on larger screen devices
+
+		if(win.width() > 600){
+
+			// When we scroll more than 150px down, we set the
+			// "fixed" class on the body element.
+
+			win.on('scroll', function(e){
+
+				if(win.scrollTop() > showHeaderAt) {
+					body.addClass('fixed');
+				}
+				else {
+					body.removeClass('fixed');
+				}
+			});
+
+		}
+
+	});
+
+</script>
+
+
+
+	<footer id="main-footer">
+		
+
+<!-- Bottom Background Image Wrapper -->
+<div class="bgded overlay" style="background-image:url('images/demo/backgrounds/pieter.jpg');"> 
+	<!-- ################################################################################################ -->
+	<div class="wrapper row4">
+	  <footer id="footer" class="hoc clear"> 
+		<!-- ################################################################################################ -->
+		<div class="group btmspace-50">
+		  <div class="one_quarter first">
+			<h6 class="heading" style="color: white;">Join Our Team of Artists</h6>
+			<p style="color: white;">Our users are requested to follow us at various Social Media platforms
+			  for better learning content. Our pages and media groups have contributors from all around the 
+			  Globe. We provide you with a Dynamic enviroment for Learning Art [<a href="#">&hellip;</a>]</p>
+			<ul class="faico clear" style="color: white;">
+			  <li><a class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a></li>
+			  <li><a class="faicon-google-plus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
+			  <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
+			  <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+			  <li><a class="faicon-vk" href="#"><i class="fab fa-vk"></i></a></li>
+			</ul>
+		  </div>
+		  <div class="one_quarter" >
+			<h6 class="heading" style="color: white;">Learn Art Through[<a href="#">&hellip;</a>]</h6>
+			<ul class="nospace linklist">
+			  <li><a href="#" style="color:white; ">Video Tutorials</a></li>
+			  <li><a href="#" style="color:white;">Expert Artists</a></li>
+			  <li><a href="#" style="color:white;">Art Theories and information</a></li>
+			  <li><a href="#" style="color:white;">Art Contests and Seminars</a></li>
+			  <li><a href="courses.html" style="color:white;">Our Courses</a></li>
+			</ul>
+		  </div>
+		  <div class="one_quarter">
+			<h6 class="heading">Subscribe Our Newsletter</h6>
+			<p class="nospace btmspace-15" style="color: white;">After Subscribing we would share daily
+			  Arts Tips and information.</p>
+			<form action="#" method="post" >
+			  <fieldset>
+				<legend>Newsletter:</legend>
+				<input class="btmspace-15" type="text" value="" placeholder="Name">
+				<input class="btmspace-15" type="text" value="" placeholder="Email">
+				<button class="btn" type="submit" value="submit">Submit</button>
+			  </fieldset>
+			</form>
+		  </div>
+		  <div class="one_quarter">
+			<h6 class="heading">Check out Our Art Gallery</h6>
+			<ul class="nospace clear latestimg">
+			  <li><a class="imgover" href="#"><img src="../images/demo/sj.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/naruto.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/orfeas.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/mado.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/domi.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/henrik.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/rhondak.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/andre.jpg" alt=""></a></li>
+			  <li><a class="imgover" href="#"><img src="../images/demo/jay.jpg" alt=""></a></li>
+			</ul>
+		  </div>
+		</div>
+		<!-- ################################################################################################ -->
+		<hr class="btmspace-50">
+		<!-- ################################################################################################ -->
+		<nav>
+		  <ul class="nospace">
+			<li><a href="index.html"><i class="fas fa-lg fa-home"></i></a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Contact</a></li>
+			<li><a href="#">Terms</a></li>
+			<li><a href="#">Privacy</a></li>
+			<li><a href="#">Cookies</a></li>
+			<li><a href="#">Disclaimer</a></li>
+		  </ul>
+		</nav>
+		<!-- ################################################################################################ -->
+	  </footer>
+	</div>
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<!-- ################################################################################################ -->
+	<div class="wrapper row5">
+	  <div id="copyright" class="hoc clear" style="color: white;"> 
+		<!-- ################################################################################################ -->
+		<p class="fl_left">Copyright &copy; 2022 - All Rights Reserved - <a href="#">Arttree.Inc</a></p>
+		
+		<!-- ################################################################################################ -->
+	  </div>
+	</div>
+	<!-- ################################################################################################ -->
+  </div>
+  <!-- End Bottom Background Image Wrapper -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <!-- ################################################################################################ -->
+  <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+  <!-- JAVASCRIPTS -->
+  <script src="../layout/scripts/jquery.min.js"></script>
+  <script src="../layout/scripts/jquery.backtotop.js"></script>
+  <script src="../layout/scripts/jquery.mobilemenu.js"></script>
+  </body>
+  </html>
